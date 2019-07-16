@@ -190,30 +190,37 @@ void MainComponent::resized()
     case 25:
         keyboardComponent.setKeyWidth(area.getWidth() / 15.0f);
         keyboardComponent.setAvailableRange(48, 72);
+        keyboardComponent.setLowestVisibleKey(48);
         break;
     case 37:
         keyboardComponent.setKeyWidth(area.getWidth() / 22.0f);
         keyboardComponent.setAvailableRange(48, 84);
+        keyboardComponent.setLowestVisibleKey(48);
         break;
     case 49:
         keyboardComponent.setKeyWidth(area.getWidth() / 29.0f);
         keyboardComponent.setAvailableRange(36, 84);
+        keyboardComponent.setLowestVisibleKey(36);
         break;
     case 61:
         keyboardComponent.setKeyWidth(area.getWidth() / 36.0f);
         keyboardComponent.setAvailableRange(36, 96);
+        keyboardComponent.setLowestVisibleKey(36);
         break;
     case 73:
         keyboardComponent.setKeyWidth(area.getWidth() / 43.0f);
         keyboardComponent.setAvailableRange(24, 96);
+        keyboardComponent.setLowestVisibleKey(24);
         break;
     case 76:
         keyboardComponent.setKeyWidth(area.getWidth() / 45.0f);
         keyboardComponent.setAvailableRange(21, 96);
+        keyboardComponent.setLowestVisibleKey(21);
         break;
     default:
         keyboardComponent.setKeyWidth(area.getWidth() / 52.0f);
         keyboardComponent.setAvailableRange(21, 108);
+        keyboardComponent.setLowestVisibleKey(21);
         break;
     }
 }
