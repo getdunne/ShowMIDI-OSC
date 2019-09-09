@@ -1,7 +1,7 @@
 # ShowMIDI-OSC
 ![](showmidi-osc.png)
 
-This is a version of [ShowMIDI](https://github.com/getdunne/ShowMIDI) for use with DAWs that don't support MIDI-insert plug-ins. It runs as a stand-alone application on Windows or Mac, and works with the free [TouchOSC Bridge by Hexler](https://hexler.net/products/touchosc).
+This is a version of [ShowMIDI](https://github.com/getdunne/ShowMIDI) for use with DAWs that don't support MIDI-insert plug-ins. It runs as a stand-alone application on Windows or Mac, and works with the free [TouchOSC Bridge by Hexler](https://hexler.net/products/touchosc#downloads).
 
 See http://getdunne.net/download/showmidi-osc for usage details, and links to download pre-built versions (with PlugInGuru branding).
 
