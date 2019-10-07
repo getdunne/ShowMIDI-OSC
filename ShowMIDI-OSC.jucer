@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="eWi7Ub" name="ShowMIDI-OSC" projectType="guiapp" jucerVersion="5.4.3"
+<JUCERPROJECT id="eWi7Ub" name="ShowMIDI-OSC" projectType="guiapp" jucerVersion="5.4.4"
               companyName="Shane Dunne" companyCopyright="(c)2019 Shane Dunne"
               reportAppUsage="0" displaySplashScreen="0" bundleIdentifier="com.getdunne.SMOSC"
               companyWebsite="http://www.getdunne.com/" companyEmail="shane@getdunne.com">
@@ -60,7 +60,7 @@
         <MODULEPATH id="juce_audio_utils" path="C:/JUCE/modules"/>
       </MODULEPATHS>
     </VS2017>
-    <XCODE_MAC targetFolder="Builds/MacOSX" iosDevelopmentTeamID="W5AEHZN66V">
+    <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug"/>
         <CONFIGURATION isDebug="0" name="Release"/>
